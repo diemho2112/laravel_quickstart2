@@ -34,6 +34,6 @@
             {!! Form::label('password_confirmation', trans('message.confirm_password')) !!}
             {!! Form::password('password_confirmation', ['class' => 'form-control']) !!}
         </div>
-        {!! Form::submit(trans('message.confirm_password'), ['class' => 'btn btn-primary']) !!}
+        {!! Form::submit(trans('message.register'), ['class' => 'btn btn-primary']) !!}
     {!! Form::close() !!}
 @endsection

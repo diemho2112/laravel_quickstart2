@@ -11,6 +11,7 @@
 |
 */
 
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
+    Route::get('/', 'TaskController@index')->name('home');
+    Route::get('change-language/{language}', 'TaskController@changeLanguage')->name('user.change-language');
+    Route::resource('task', 'TaskController');
+    Auth::routes();

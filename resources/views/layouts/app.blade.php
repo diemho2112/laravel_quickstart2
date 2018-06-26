@@ -22,8 +22,8 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ trans('message.language') }} <b
                                     class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">{{ trans('message.english') }}</a></li>
-                            <li><a href="#">{{ trans('message.vietnamese') }}</a></li>
+                            <li><a href="{!! route('user.change-language', ['en']) !!}">{{ trans('message.english') }}</a></li>
+                            <li><a href="{!! route('user.change-language', ['vi']) !!}">{{ trans('message.vietnamese') }}</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">

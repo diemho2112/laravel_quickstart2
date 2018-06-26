@@ -15,7 +15,7 @@ mix.sass('resources/assets/sass/_variables.scss','public/css')
     .sass('resources/assets/sass/app.scss', 'public/css');
 mix.styles([
     'resources/assets/css/main.css'
-], 'public/css/all.css');
+], 'public/css/main.css');
 mix.js([
     'resources/assets/js/app.js',
     'resources/assets/js/bootstrap.js',
